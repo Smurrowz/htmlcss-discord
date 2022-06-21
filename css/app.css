@@ -16,7 +16,7 @@
   display: flex;
 }
 .padd-vert{
-  padding: 100px 0;
+  padding: 70px 0;
 }
 
 /* css header */
@@ -74,13 +74,13 @@ main .hero p, .sect-desc p{
 .sect-1.flex{
   align-items: center;
 }
-.download, .open-browser{
+.download, .open-browser, .download-bottom{
 padding: 5px 10px;
 border-radius: 20px;
 border: none;
 font-size: 18px;
 }
-.download::before{
+.download::before, .download-bottom::before{
   content: "\1F817";
   font-size: 25px;
   vertical-align: middle;
@@ -117,12 +117,31 @@ font-size: 18px;
 }
 /* section n3-5 */
 .sect-3{
-  background-color:#F6F6F6;
+  background-color: rgba(0, 0, 0, 0.05);
 }
-.green-cont{
-  background-color: #238B21;
-  height: 500px;
+/* section 5 */
+.sect-3  .colonna{
+text-align: center;
 }
+.colonna .row{
+  padding: 0 100px;
+}
+.sparkles{
+  background-image: url(../img/stars.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: fit-content;
+  margin: 0 auto ;
+  padding: 30px 0;
+}
+.colonna > div > h3{
+font-size:30px ;
+}
+.download-bottom{
+  background-color:#4375F1 ;
+  color: white;
+}
+
 /* footer pt1 */
 footer{
   background-color: grey;
@@ -157,4 +176,19 @@ footer > section:last-child{
 }
 div.foot-flex > div{
   background-color: pink;
+}
+
+
+
+/* onde */
+.wave-grey{
+  background-image: url(../img/wave.svg);
+  height: 100px;
+  opacity: 0.05;
+}
+.wave-grey-ud{
+  background-image: url(../img/wave.svg);
+  height: 100px;
+  opacity: 0.05;
+  transform: scaleY(-1);
 }
