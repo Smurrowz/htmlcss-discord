@@ -179,7 +179,7 @@ footer ul li{
   list-style-type:none;
   padding: 8px 0;
 }
-footer > section:last-child{
+footer .foot-flex{
   padding-top: 20px;
   border-top: 1px solid #4375F1;
   max-width: 1000px;
