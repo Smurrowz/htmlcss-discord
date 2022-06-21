@@ -11,22 +11,22 @@
 .container{
   max-width: 1000px;
   margin: 0 auto;
-  
 }
 .flex{
   display: flex;
 }
 .padd-vert{
-  padding: 20px 0;
+  padding: 100px 0;
 }
 
 /* css header */
+.padd-header{
+  padding: 20px 0;
+}
 header{
   background-color:#265EE9;
 }
-nav{
-  background-color: ;
-}
+
 .nav-col-logo, .nav-col-but{
   flex-basis: 20%;
 }
@@ -52,12 +52,45 @@ nav{
   color: white;
 }
 /* section n1 */
+main section h2, .sect-desc h2{
+font-size:42px ;
+padding-bottom: 30px;
+}
+main .hero p, .sect-desc p{
+  padding-bottom: 20px;
+  line-height: 25px;
+  font-size: 18px;
+}
+.hero .flex{
+  justify-content: center;
+  gap: 30px;
+}
 .sect-1{
   background-image: url(../img/jumbo.png);
   background-size: cover;
   background-position: center;
-  min-height: 400px;
-  
+  min-height: 500px;
+}
+.sect-1.flex{
+  align-items: center;
+}
+.download, .open-browser{
+padding: 5px 10px;
+border-radius: 20px;
+border: none;
+font-size: 18px;
+}
+.download::before{
+  content: "\1F817";
+  font-size: 25px;
+  vertical-align: middle;
+}
+.download{
+  background-color: white;
+}
+.open-browser{
+  color: white;
+  background-color: rgb(39, 36, 36);
 }
 .hero{
   margin: 0 auto;
@@ -66,28 +99,25 @@ nav{
   color: white;
   padding-top: 50px;
 }
+
 /* section n2 */
 .sect-2{
   background-color: white;
 }
-.blue, .pink{
-  height: 400px;
-  ; 
-}
-.blue{
-  background-color: #1D90FF;
+
+.sect-img{
   flex-basis: 60%;
 }
-.pink{
-  background-color: #FFBFCB;
+.sect-desc{
   flex-basis: 40%;
+  padding-top: 30px;
 }
 .row-rev{
   flex-direction: row-reverse;
 }
-/* section n5 */
+/* section n3-5 */
 .sect-3{
-  background-color: #D3D3D3;
+  background-color:#F6F6F6;
 }
 .green-cont{
   background-color: #238B21;

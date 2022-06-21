@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,85 +8,109 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/app.css">
 </head>
+
 <body>
   <!-- header diviso in 3 -->
-  <header class="padd-vert">
-    <nav class="container flex ">
-      <div class="nav-col-logo">
-        <img src="img/logo.svg" alt="logo discord">
-      </div>
-      <ul class="nav-col-menu flex">
-        <li> <a href="#">Scarica</a> </li>
-        <li> <a href="#">Perche' Discord</a> </li>
-        <li> <a href="#">Nitro</a> </li>
-        <li> <a href="#">Sicurezza</a> </li>
-        <li> <a href="#">Assistenza</a> </li>
-      </ul>
-      <div class="nav-col-but">
-        <button class="nav-button">Accedi</button>
+  <header class="padd-header">
+    <nav class="container">
+      <div class="flex">
+        <div class="nav-col-logo">
+          <img src="img/logo.svg" alt="logo discord">
+        </div>
+        <ul class="nav-col-menu flex">
+          <li> <a href="#">Scarica</a> </li>
+          <li> <a href="#">Perche' Discord</a> </li>
+          <li> <a href="#">Nitro</a> </li>
+          <li> <a href="#">Sicurezza</a> </li>
+          <li> <a href="#">Assistenza</a></li>
+        </ul>
+        <div class="nav-col-but">
+          <button class="nav-button">Accedi</button>
+        </div>
       </div>
     </nav>
   </header>
   <!-- sezione 1 -->
-  <section class="padd-vert sect-1 flex">
-    <div class="hero debug">
-      <h2>Il tuo posto per parlare</h2>
-      <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunita' artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende piu' facile chiacchierare ogni giorno e ritrovarsi piu' spesso.</p>
-      <div class="flex">
-        <button>Scarica per Mac</button>
-        <button>Apri Discord nel tuo browser</button>
+  <main>
+    <section class="padd-vert sect-1 flex ">
+      <div class="hero">
+        <h2>Il tuo posto per parlare</h2>
+        <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunita' artistica mondiale, o semplicemente di
+          un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende piu' facile chiacchierare ogni
+          giorno e ritrovarsi piu' spesso.</p>
+        <div class="flex">
+          <button class="download"> Scarica per Mac</button>
+          <button class="open-browser">Apri Discord nel tuo browser</button>
+        </div>
       </div>
-    </div>
-  </section>
-  <!-- sezione 2 uguale alla 4 -->
-  <section class="padd-vert sect-2">
-    <div class="container ">
-      <div class="flex row">
-        <div class="blue debug"></div>
-        <div class="pink debug"></div>
+    </section>
+    <!-- sezione 2 uguale alla 4 -->
+    <section class="padd-vert sect-2">
+      <div class="container ">
+        <div class="flex">
+          <img class="sect-img" src="img/item1.svg" alt="img canale testuale">
+          <div class="sect-desc">
+            <h2> Un luogo a invito con tutto lo spazio necessario per parlare</h2>
+            <p>I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente
+              parlare della tua giornata senza intasare una chat di gruppo.</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </section> 
-  <!-- sezione 3 uguale alla 2-4 ma reverse -->
-  <section class="padd-vert sect-3">
-    <div class="container flex row-rev">
-      <div class="blue debug"></div>
-      <div class="pink debug"></div>
-    </div>
-  </section>
-  <!-- sezione 4 uguale alla 2 -->
-  <section class="padd-vert sect-2">
-    <div class="container flex">
-      <div class="blue debug"></div>
-      <div class="pink debug"></div>
-    </div>
-  </section>
-  <!-- sezione 5 -->
-  <section class="padd-vert sect-3">
-    <div class="container green-cont debug">
-      <div></div>
-    </div>
-  </section>
+    </section>
+    <!-- sezione 3 uguale alla 2-4 ma reverse -->
+    <section class="padd-vert sect-3">
+      <div class="container flex row-rev">
+        <div class="sect-img">
+          <img src="img/item2.svg" alt="img canale audio">
+        </div>
+        <div class="sect-desc">
+          <h2>Dove trovarsi e' facile</h2>
+          <p>Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei li' e unirsi istantaneamente senza dover chiamare.</p>
+        </div>
+      </div>
+    </section>
+    <!-- sezione 4 uguale alla 2 -->
+    <section class="padd-vert sect-2">
+      <div class="container ">
+        <div class="flex">
+          <img class="sect-img" src="img/item3.svg" alt="img ruoli">
+          <div class="sect-desc">
+            <h2> Da pochi a un fandom</h2>
+            <p>Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile. 
+              Concedi di membri poteri speciali, crea canali privati, e molto altro.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- sezione 5 -->
+    <section class="padd-vert sect-3">
+      <div class="container green-cont debug">
+        <div></div>
+      </div>
+    </section>
+  </main>
   <!-- footer -->
   <footer>
     <!-- footer pt 1 -->
     <section>
       <div class="container flex">
         <div class="foot-col-lrg debug"></div>
-        <div class="foot-col debug" ></div>
-        <div class="foot-col debug" ></div>
-        <div class="foot-col debug" ></div>
-        <div class="foot-col debug" ></div>
+        <div class="foot-col debug"></div>
+        <div class="foot-col debug"></div>
+        <div class="foot-col debug"></div>
+        <div class="foot-col debug"></div>
       </div>
     </section>
     <!-- footer pt 2 -->
     <section>
-     <div class="container foot-flex flex wat-green-cont ">
-      <div class="debug"> logo</div>
-      <div class="debug"> bottone</div>
-     </div> 
+      <div class="container foot-flex flex wat-green-cont ">
+        <div class="debug"> logo</div>
+        <div class="debug"> bottone</div>
+      </div>
     </section>
-    
+
   </footer>
 </body>
+
 </html>
