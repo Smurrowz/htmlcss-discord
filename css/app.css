@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* debug border */
+.debug{
+  border: 2px dashed black;
+}
+/* css containers */
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+  
+}
+.flex{
+  display: flex;
+}
+.padd-vert{
+  padding: 20px 0;
+}
+
+/* css header */
+header{
+  background-color:#265EE9;
+}
+nav{
+  background-color: ;
+}
+.nav-col-logo, .nav-col-but{
+  flex-basis: 20%;
+}
+.nav-col-but .nav-button {
+  padding: 7px;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: white;
+  border: none;
+  font-size: 16px;
+  
+}
+.nav-col-menu{
+  flex-grow: 1;
+  list-style-type: none;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-col-menu li a{
+  text-decoration: none;
+  color: white;
+}
+/* section n1 */
+.sect-1{
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  
+}
+.hero{
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+}
+/* section n2 */
+.sect-2{
+  background-color: white;
+}
+.blue, .pink{
+  height: 400px;
+  ; 
+}
+.blue{
+  background-color: #1D90FF;
+  flex-basis: 60%;
+}
+.pink{
+  background-color: #FFBFCB;
+  flex-basis: 40%;
+}
+.row-rev{
+  flex-direction: row-reverse;
+}
+/* section n5 */
+.sect-3{
+  background-color: #D3D3D3;
+}
+.green-cont{
+  background-color: #238B21;
+  height: 500px;
+}
+/* footer pt1 */
+footer{
+  background-color: grey;
+}
+footer > section:first-child{
+ padding: 10px 0 30px 0; 
+}
+footer > section:last-child{
+  padding-top: 20px;
+  border-top: 1px solid white;
+}
+[class^=foot-col] {
+  height: 400px;
+}
+.foot-col{
+  flex-basis:calc(100% / 6);
+  background-color: rgb(29, 131, 97);
+}
+.foot-col-lrg{
+  flex-basis:calc(100% / 6 * 2);
+  background-color:#F08080;
+}
+/* footer pt2 */
+.wat-green-cont{
+  background-color: #20B2AA;
+  height: 50px;
+  
+}
+.foot-flex{
+  justify-content: space-between;
+  align-items: center;
+}
+div.foot-flex > div{
+  background-color: pink;
+}
